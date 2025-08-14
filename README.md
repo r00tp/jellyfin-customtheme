@@ -1,6 +1,6 @@
 
 Installer Link - `@import url(https://cdn.jsdelivr.net/gh/r00tp/jellyfin-customtheme@latest/zombie_revived.css);`
-Installer Link - `@import url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/zombie_revived.css);`
+OLD Installer Link - `@import url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/zombie_revived.css);`
 Color Schemes (Add below the first import. **Apart** from Amazon Prime, and netflix _somewhat_ all schemes look ugly and need to be fixed. Old color schemes [hidden below](https://github.com/MakD/zombie-release/tree/main#color-palettes), and the ones from Zesty are still compatible)
 
 - Amazon Prime - `@import url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/color-schemes/amazon-prime.css);`
