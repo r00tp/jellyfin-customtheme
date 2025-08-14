@@ -132,7 +132,7 @@ body:not(:has(#loginPage:not(.hide))) .skinHeader {
 }
 #loginPage .pageTitleWithDefaultLogo,
 .layout-mobile .detailImageContainer .card.portraitCard {
-  display: none !important;
+  display: flex !important;
 }
 #loginPage {
   width: 100%;
