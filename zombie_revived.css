@@ -93,97 +93,101 @@ h4 {
   color: #cecece;
 }
 #loginPage h1 {
-  display: none;
-}
-#loginPage .padded-left.padded-right.padded-bottom-page {
-  margin-top: 10px;
-}
-body:has(#loginPage:not(.hide)) .skinHeader {
-  display: none !important;
-}
-body:has(#loginPage:not(.hide)) {
-  overflow: hidden !important;
-}
-body:not(:has(#loginPage:not(.hide))) .skinHeader {
-  display: flex !important;
-}
-#loginPage .readOnlyContent,
-#loginPage form {
-  max-width: 22em;
-}
-#loginPage .padded-left.padded-right.padded-bottom-page {
-  margin-top: 4em !important;
-  margin-left: auto;
-  margin-right: auto;
-  backdrop-filter: blur(1px);
-  border-radius: var(--rounding-large);
-  overflow: auto;
-}
-#loginPage .squareCard {
-  width: 33%;
-}
-#loginPage form {
-  padding-top: 2em;
-}
-#loginPage .sectionTitle {
-  margin-left: auto !important;
-  margin-right: auto !important;
-  margin-bottom: 1.2em !important;
-}
-#loginPage .pageTitleWithDefaultLogo,
-.layout-mobile .detailImageContainer .card.portraitCard {
-  display: none !important;
-}
-#loginPage {
-  width: 100%;
-  height: 100%;
-  background-image: url(https://i.imgur.com/inAheJu.jpeg);
-  background-position: top left;
-  background-size: cover;
-  background-attachment: fixed;
-  animation: 150s infinite alternate backgroundAnimation;
-  z-index: 2;
-  overflow: hidden;
-}
-/* Box container */
-#loginPage .readOnlyContent,
-#loginPage form {
-  width: 100%;
-  max-width: 380px;
-  background-color: rgba(0, 0, 0, 0.4) !important;
-  backdrop-filter: blur(6px);
-  border-radius: 20px;
-  padding: 30px;
-  box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
-  box-sizing: border-box;
-}
-#loginPage .raised.cancel.block.btnForgotPassword.emby-button {
-  display: flex;
-}
-div#loginPage {
-  margin-top: 0 !important;
-}
-/* Optional: Fade-in effect */
-#loginPage .readOnlyContent {
-  animation: fadeIn 1s ease-in-out;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: scale(0.95); }
-  to { opacity: 1; transform: scale(1); }
-}
+    display: none;
+  }
+  #loginPage .padded-left.padded-right.padded-bottom-page {
+    margin-top: 10px;
+  }
+  body:has(#loginPage:not(.hide)) .skinHeader {
+    display: none !important;
+  }
+  body:has(#loginPage:not(.hide)) {
+    overflow: hidden !important;
+  }
+  body:not(:has(#loginPage:not(.hide))) .skinHeader {
+    display: flex !important;
+  }
+  #loginPage .readOnlyContent,
+  #loginPage form {
+    max-width: 22em;
+  }
+  #loginPage .padded-left.padded-right.padded-bottom-page {
+    margin-top: 4em !important;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(1px);
+    border-radius: var(--rounding-large);
+    overflow: auto;
+  }
+  #loginPage .squareCard {
+    width: 33%;
+  }
+  #loginPage form {
+    padding-top: 2em;
+  }
+  #loginPage .sectionTitle {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 1.2em !important;
+  }
+  #loginPage .pageTitleWithDefaultLogo,
+  .layout-mobile .detailImageContainer .card.portraitCard {
+    display: none !important;
+  }
+  #loginPage {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i.imgur.com/inAheJu.jpeg);
+    background-position: top left;
+    background-size: cover;
+    background-attachment: fixed;
+    animation: 150s infinite alternate backgroundAnimation;
+    z-index: 2;
+    overflow: hidden;
+  }
+  /* Box container */
+  #loginPage .readOnlyContent,
+  #loginPage form {
+    width: 100%;
+    max-width: 380px;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+  }
+  #loginPage .raised.cancel.block.btnForgotPassword.emby-button {
+    display: flex;
+  }
+  div#loginPage {
+    margin-top: 0 !important;
+  }
+  /* Optional: Fade-in effect */
+  #loginPage .readOnlyContent {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  .manualLoginForm {
+    height: 100%;
+    width: 100%;
+  }
+  /* Responsive Fix: Make sure it's centered on small screens */
+  @media (max-width: 600px) {
+    #loginPage .readOnlyContent,
+    #loginPage form {
+      max-width: 100%;
+      padding: 20px;
+      margin: 0 10px;
+    }
+  }
 .manualLoginForm {
   height: 100%;
   width: 100%;
-}
-/* Responsive Fix: Make sure it's centered on small screens */
-@media (max-width: 600px) {
-  #loginPage .readOnlyContent,
-  #loginPage form {
-    max-width: 100%;
-    padding: 20px;
-    margin: 0 10px;
-  }
 }
 .layout-mobile .listItem-content .listItemImage-large {
   -webkit-tap-highlight-color: #fff0;
@@ -198,7 +202,7 @@ div#loginPage {
 }
 .layout-mobile .backgroundContainer,
 .layout-desktop .backgroundContainer {
-  background: url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@main/img/loginImg/login.jpg)
+  background: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/gradients/blue.png)
     no-repeat center center;
 }
 .sectionTitleContainer-cards {
@@ -762,7 +766,7 @@ imgLogoIcon {
 .layout-desktop .itemBackdrop {
   background-attachment: scroll;
   background-position: center;
-  background-image: url(https://github.com/MakD/zombie-release/blob/main/img/loginImg/login.jpg) !important;
+  background-image: none !important;
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -2781,7 +2785,7 @@ layout-mobile .detailPagePrimaryContent {
 }
 @media (orientation: landscape) {
   .layout-mobile .backgroundContainer {
-    background: url(https://github.com/MakD/zombie-release/blob/main/img/loginImg/login.jpg)
+    background: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/gradients/blue.png)
       no-repeat center center;
   }
   .layout-mobile .itemBackdrop {
