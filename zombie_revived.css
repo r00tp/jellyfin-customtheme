@@ -198,7 +198,7 @@ div#loginPage {
 }
 .layout-mobile .backgroundContainer,
 .layout-desktop .backgroundContainer {
-  background: url(https://github.com/MakD/zombie-release/blob/main/img/loginImg/login.jpg)
+  background: url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@main/img/loginImg/login.jpg)
     no-repeat center center;
 }
 .sectionTitleContainer-cards {
@@ -762,7 +762,7 @@ imgLogoIcon {
 .layout-desktop .itemBackdrop {
   background-attachment: scroll;
   background-position: center;
-  background-image: none !important;
+  background-image: url(https://github.com/MakD/zombie-release/blob/main/img/loginImg/login.jpg) !important;
   background-size: cover;
   height: 100vh;
   position: relative;
