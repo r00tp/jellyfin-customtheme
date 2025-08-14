@@ -132,13 +132,12 @@ body:not(:has(#loginPage:not(.hide))) .skinHeader {
 }
 #loginPage .pageTitleWithDefaultLogo,
 .layout-mobile .detailImageContainer .card.portraitCard {
-  display: flex !important;
+  display: none !important;
 }
 #loginPage {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),
-    url(https://i.imgur.com/inAheJu.jpeg);
+  background-image: url(https://i.imgur.com/inAheJu.jpeg);
   background-position: top left;
   background-size: cover;
   background-attachment: fixed;
@@ -146,15 +145,45 @@ body:not(:has(#loginPage:not(.hide))) .skinHeader {
   z-index: 2;
   overflow: hidden;
 }
+/* Box container */
+#loginPage .readOnlyContent,
+#loginPage form {
+  width: 100%;
+  max-width: 380px;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+}
 #loginPage .raised.cancel.block.btnForgotPassword.emby-button {
-  display: none;
+  display: flex;
 }
 div#loginPage {
   margin-top: 0 !important;
 }
+/* Optional: Fade-in effect */
+#loginPage .readOnlyContent {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
 .manualLoginForm {
   height: 100%;
   width: 100%;
+}
+/* Responsive Fix: Make sure it's centered on small screens */
+@media (max-width: 600px) {
+  #loginPage .readOnlyContent,
+  #loginPage form {
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 10px;
+  }
 }
 .layout-mobile .listItem-content .listItemImage-large {
   -webkit-tap-highlight-color: #fff0;
