@@ -47,10 +47,6 @@ https://live-ln24.digiteka.com/1911668011/index.m3u8
 https://webtv.monacoinfo.com/live/prod/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/sd7qf1w7/icirdiqb.png",RDI CANADA
 https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/pdnMrZn/a24.png",AFRICA 24 FR
-https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/XSYtYHZ/africanews.png",AFRICANEWS FR
-https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/HDB0sdh/bfmbusiness.png",BFM BUSINESS
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_BUSINESS/index.m3u8?start=LIVE&end=END
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Tm8bZHc/bsmart.png",B SMART
@@ -167,10 +163,6 @@ https://livefr.cgtn.com/1000f/prog_index.m3u8
 https://amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-rakuten/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/sq11nQ1/rdicanada.png",RDI CANADA (backup)
 https://d352zobhe5lhe6.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-j7m6inrqe6jat/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/XSYtYHZ/africanews.png",AFRICANEWS FR (backup)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=10951
-#EXTINF:-1 tvg-logo="https://i.ibb.co/XSYtYHZ/africanews.png",AFRICANEWS FR (backup)
-https://2767164d5ee04887b96812a9eea74d32.mediatailor.eu-west-1.amazonaws.com/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6573/44d3df93-4a3e-43e0-990f-a5d196bbe3aa/5.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Zfcrrr1/lci.png",LCI [tkn-blocked]
 https://live-lci-hls.cdn-0.diff.tf1.fr/out/v1/917aad4fa72f42f7ba7f486226f54bc4/lci-cmaf/index.m3u8
 
@@ -501,8 +493,6 @@ https://rakuten-films-francais-1-eu.rakuten.wurl.tv/playlist.m3u8
 https://versatile-wildsidetv-1-fr.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/grBSqt4/novela.png",TELE NOVELA TV
 https://stormcast-telenovelatv-1-fr.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/JB18vMW/bblack.png",BBLACK! AFRICA
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/JB18vMW/bblack.png",BBLACK! CARIBBEAN
 https://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/JB18vMW/bblack.png",BBLACK! CLASSIK
@@ -913,8 +903,6 @@ https://rainews2-live.akamaized.net/hls/live/598327/rainews2/rainews2/playlist.m
 https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/playlist_mo.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/xGG27kS/raiit.png",RAI 3
 https://wzstreaming.rai.it/TVlive/smil:liveStream.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/xGG27kS/raiit.png",RAI ITALIA
-https://ilglobotv-live.akamaized.net/channels/RAIItaliaSudAfrica/Live.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/oAiSU8O.png",CLASS CNBC
 https://859c1818ed614cc5b0047439470927b0.msvdn.net/live/S57048752/8raQqCXozN1H/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/02vCECa.png",LA C NEWS 24
@@ -1251,12 +1239,6 @@ https://euronews-euronews-world-1-us.plex.wurl.tv/playlist.m3u8
 https://streams.sofast.tv/euronewsen/live/eds/euronews-en/25017/euronews-en.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/R4xVMYc/enews.png",EURONEWS EN
 https://jmp2.uk/sam-GB2600019ON.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/XSYtYHZ/africanews.png",AFRICANEWS EN
-https://rakuten-africanews-1-ie.samsung.wurl.tv/manifest/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/XSYtYHZ/africanews.png",AFRICANEWS EN
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/africanews/africanews-en.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/XSYtYHZ/africanews.png",AFRICANEWS EN
-https://37c774660687468c821a51190046facf.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-gb_AfricaNews/playlist.m3u8 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/gFjck13/ebssat.png",EUROPE BY SAT
 https://eucom-live.freecaster.com/eucom/96098bf4-5a2a-466b-8d7f-e35300fa4f28/96098bf4-5a2a-466b-8d7f-e35300fa4f28.isml/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/gFjck13/ebssat.png",EUROPE BY SAT
@@ -1277,10 +1259,6 @@ https://abc-news-dmd-streams-1.akamaized.net/out/v1/abc83881886746b0802dc3e7ca2b
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/8MBM4M1/skyn.png",SKY NEWS AUSTRALIA
 https://amg00663-skynews-skynewsau-samsungau-r7n40.amagi.tv/playlist/amg00663-skynews-skynewsau-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/94BB1cD/indiatod.jpg",INDIA TODAY
-https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/prZ8kjdR/Wion.png",WION NEWS INDIA
-https://d7x8z4yuq42qn.cloudfront.net/index_1.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/7J24bwVD/cnaid.png",CHANNEL NEWS ASIA
 http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/hKP8X8B/f24.png",FRANCE 24 EN
@@ -1307,8 +1285,6 @@ https://dwamdstream106.akamaized.net/hls/live/2017965/dwstream106/index.m3u8
 https://bcovlive-a.akamaihd.net/ecf224f43f3b43e69471a7b626481af0/eu-central-1/5377161796001/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/NCQtNX5/telesur.png",TELESUR EN
 https://cdnenmain.telesur.ultrabase.net/mblivev3/hd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/pdnMrZn/a24.png",AFRICA 24 EN
-https://livevideo.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/rtqXSWm/arirang.png",ARIRANG WORLD
 http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/rtqXSWm/arirang.png",ARIRANG WORLD
